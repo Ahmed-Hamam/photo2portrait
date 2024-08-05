@@ -19,5 +19,3 @@ torchvision
 tqdm==4.65.0
 wandb==0.15.5
 scikit-image==0.22.0
-tensorboard
-huggingface_hub
