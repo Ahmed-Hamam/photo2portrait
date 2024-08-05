@@ -38,7 +38,7 @@ u2net = U2NET(in_ch=3, out_ch=1)
 
 # Load pre-trained model (replace with your model path)
 try:
-    u2net = load_model(u2net, "/content/u2net_portrait.pth", device)
+    u2net = load_model(u2net, "u2net_portrait.pth", device)
 except FileNotFoundError as e:
     st.error(f"Error: {e}")
     st.stop()
